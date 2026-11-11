@@ -1,0 +1,22 @@
+{
+  "accuracy": 0.925895087427144,
+  "precision": 0.951473136915078,
+  "recall": 0.9,
+  "f1_score": 0.9250210614995787,
+  "confusion_matrix": {
+    "tn": 563,
+    "fp": 28,
+    "fn": 61,
+    "tp": 549
+  },
+  "split_info": {
+    "grouping_method": "registrable_root_domain (eTLD+1 via tldextract)",
+    "train_samples": 4799,
+    "train_legitimate": 2409,
+    "train_phishing": 2390,
+    "test_samples": 1201,
+    "test_legitimate": 591,
+    "test_phishing": 610,
+    "root_domain_overlap": 0
+  }
+}

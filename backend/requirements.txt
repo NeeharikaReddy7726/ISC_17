@@ -1,0 +1,14 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-multipart>=0.0.9
+opencv-python>=4.9.0
+numpy>=1.26.0
+pillow>=10.0.0
+qrcode>=7.4.2
+tldextract>=5.1.0
+sqlalchemy>=2.0.0
+argon2-cffi>=23.1.0
+pyjwt>=2.8.0
+python-dotenv>=1.0.0
+email-validator>=2.1.0
+pycryptodome>=3.20.0

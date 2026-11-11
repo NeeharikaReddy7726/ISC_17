@@ -1,0 +1,23 @@
+{
+  "dataset_name": "QR Shield Phishing and Legitimate URL Dataset",
+  "download_timestamp_utc": "2026-11-11T15:02:56.570007+00:00",
+  "total_samples": 6000,
+  "class_balance": {
+    "legitimate_samples": 3000,
+    "phishing_samples": 3000,
+    "ratio": "50/50"
+  },
+  "sources": {
+    "phishing": {
+      "provider": "PhishTank (Cisco Talos)",
+      "url": "https://data.phishtank.com/data",
+      "api_key_used": false,
+      "criterion": "verified == 'yes'"
+    },
+    "legitimate": {
+      "provider": "Tranco Top 1M Research List (Official)",
+      "url": "https://tranco-list.eu/top-1m.csv.zip",
+      "disclaimer": "Tranco domains represent high-traffic, popular domains utilized as academic proxies for legitimate website structures; they are not individually human-verified safe URLs."
+    }
+  }
+}
